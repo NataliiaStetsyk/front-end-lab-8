@@ -62,7 +62,6 @@ Task 1 : print version fixing
 	width: 100% !important;
 	height: 100% !important;
 	margin-bottom: 50px !important;
-    text-align: none !important;
     padding: 0 !important;
 	box-sizing: border-box;
 	}
@@ -198,7 +197,7 @@ Task 10: Adding bg color and black first paragraph letter to gallery-container b
 Task 11: Sidebar borders
 */
 	
-}
+
  .tm-sidebar li {
     border-bottom: 1px solid silver;
 }
