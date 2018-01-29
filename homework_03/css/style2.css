@@ -56,7 +56,8 @@ input[type=text], input[type=email], textarea {
   margin-top: 6px;
   margin-bottom: 7px;
   resize: vertical;
-  height: 10px; }
+  height: 10px;
+  color: #808080; }
 
 #contact {
   text-align: left !important; }
@@ -77,7 +78,8 @@ input[type=submit] {
   text-transform: uppercase;
   border-radius: 0;
   width: 200px;
-  font-size: 16px; }
+  font-size: 16px;
+  color: #f5c70f; }
 
 .two-column {
   display: inline-block;
@@ -108,7 +110,6 @@ th:last-child {
   border: NONE; }
 
 caption {
-  caption-side: right;
   text-align: right;
   color: #000000;
   font-weight: normal;
