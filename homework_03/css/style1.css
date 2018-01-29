@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #fadcba;
+  text-align: center; }
+
+#content {
+  margin: 8px auto;
+  background-color: #ffffff;
+  width: 800px;
+  height: 100%;
+  padding: 20px 20px;
+  font-size: 13px; }
+
+h1, h2 {
+  color: #893c00;
+  padding-bottom: 15px;
+  padding-top: 10px; }
+
+p {
+  color: #000000;
+  text-align: left;
+  padding-bottom: 10px; }
+
+.img-left {
+  float: left;
+  margin: 0px 15px 10px 0px; }
+
+.img-right {
+  float: right;
+  margin: 0px 0px 10px 15px; }
+
+img {
+  border: 2px solid #893c00;
+  padding: 2px; }
+
+.brief {
+  background-color: #fadcba;
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 3px;
+  float: left;
+  margin: 0px 15px 10px 0px;
+  text-align: left;
+  height: 30px; }
+
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 7px;
+  resize: vertical;
+  height: 10px;
+  color: #808080; }
+
+#contact {
+  text-align: left !important; }
+
+a {
+  color: #3d70a1;
+  text-align: left !important; }
+
+h2 {
+  text-align: left !important; }
+
+input[type=submit] {
+  padding: 12px 20px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #f5c70f;
+  border: 1px solid #3d70a1;
+  text-transform: uppercase;
+  border-radius: 0;
+  width: 200px;
+  font-size: 16px;
+  color: #3d70a1; }
+
+.two-column {
+  display: inline-block;
+  margin-right: 1px;
+  width: 397px; }
+
+label {
+  color: #808080;
+  text-transform: uppercase; }
+
+h1 {
+  text-align: center;
+  text-transform: none; }
+
+table {
+  width: 750px;
+  border-collapse: collapse;
+  background-color: #ffffff; }
+
+th {
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #808080;
+  border-right: 1px solid #ffffff;
+  color: #000000; }
+
+th:last-child {
+  border: NONE; }
+
+caption {
+  caption-side: right;
+  text-align: right;
+  color: #000000;
+  font-weight: normal;
+  font-size: 14px; }
+
+th, td {
+  padding: 5px 10px;
+  text-align: left; }
+
+tr:not(:first-child):not(:last-child) {
+  border-bottom: 1px solid #e0e0e0; }
+
+tr {
+  color: #000000;
+  height: 30px; }
+
+/*# sourceMappingURL=style1.css.map */

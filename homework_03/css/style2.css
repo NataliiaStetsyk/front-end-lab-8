@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: rgba(198, 238, 252, 0.53);
+  text-align: center; }
+
+#content {
+  margin: 8px auto;
+  background-color: #3b3b3b;
+  width: 800px;
+  height: 100%;
+  padding: 20px 20px;
+  font-size: 13px; }
+
+h1, h2 {
+  color: #fccd10;
+  padding-bottom: 15px;
+  padding-top: 10px; }
+
+p {
+  color: #ffffff;
+  text-align: left;
+  padding-bottom: 10px; }
+
+.img-left {
+  float: left;
+  margin: 0px 15px 10px 0px; }
+
+.img-right {
+  float: right;
+  margin: 0px 0px 10px 15px; }
+
+img {
+  border: 2px solid #fccd10;
+  padding: 2px; }
+
+.brief {
+  background-color: #fff178;
+  width: 780px;
+  padding: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  float: none;
+  margin: 0px 0px 30px 0px;
+  text-align: left;
+  height: 30px; }
+
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 7px;
+  resize: vertical;
+  height: 10px; }
+
+#contact {
+  text-align: left !important; }
+
+a {
+  color: #f5c70f;
+  text-align: left !important; }
+
+h2 {
+  text-align: left !important; }
+
+input[type=submit] {
+  padding: 12px 20px;
+  cursor: pointer;
+  background-color: #3b3b3b;
+  color: #f5c70f;
+  border: 1px solid #f5c70f;
+  text-transform: uppercase;
+  border-radius: 0;
+  width: 200px;
+  font-size: 16px; }
+
+.two-column {
+  display: inline-block;
+  margin-right: 1px;
+  width: 397px; }
+
+label {
+  color: #f5c70f;
+  text-transform: uppercase; }
+
+h1 {
+  text-align: center;
+  text-transform: uppercase; }
+
+table {
+  width: 750px;
+  border-collapse: collapse;
+  background-color: #677d01; }
+
+th {
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #94a34e;
+  border-right: 1px solid #ffffff;
+  color: #000000; }
+
+th:last-child {
+  border: NONE; }
+
+caption {
+  caption-side: right;
+  text-align: right;
+  color: #000000;
+  font-weight: normal;
+  font-size: 14px; }
+
+th, td {
+  padding: 5px 10px;
+  text-align: left; }
+
+tr:not(:first-child):not(:last-child) {
+  border-bottom: 1px solid #94a34e; }
+
+tr {
+  color: #ffffff;
+  height: 30px; }
+
+/*# sourceMappingURL=style2.css.map */
