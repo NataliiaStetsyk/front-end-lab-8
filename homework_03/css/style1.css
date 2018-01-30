@@ -3,21 +3,19 @@
   padding: 0; }
 
 body {
-  background-color: #fadcba;
-  text-align: center; }
+  background-color: #fadcba; }
 
 #content {
-  margin: 8px auto;
-  background-color: #ffffff;
-  width: 800px;
-  height: 100%;
-  padding: 20px 20px;
-  font-size: 13px; }
+  width: 960px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 25px 25px;
+  background-color: #ffffff; }
 
 h1, h2 {
   color: #893c00;
   padding-bottom: 15px;
-  padding-top: 10px; }
+  padding-top: 15px; }
 
 p {
   color: #000000;
@@ -38,14 +36,14 @@ img {
 
 .brief {
   background-color: #fadcba;
-  width: 300px;
-  padding: 10px;
-  margin-right: 10px;
-  margin-top: 3px;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 330px;
   float: left;
-  margin: 0px 15px 10px 0px;
+  margin: 0px 10px 10px 0px;
   text-align: left;
-  height: 30px; }
+  vertical-align: middle; }
 
 input[type=text], input[type=email], textarea {
   width: 100%;
@@ -83,8 +81,8 @@ input[type=submit] {
 
 .two-column {
   display: inline-block;
-  margin-right: 1px;
-  width: 397px; }
+  margin-right: 2px;
+  width: 476px; }
 
 label {
   color: #808080;
@@ -95,14 +93,15 @@ h1 {
   text-transform: none; }
 
 table {
-  width: 750px;
+  width: 900px;
   border-collapse: collapse;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  margin-bottom: 50px; }
 
 th {
   text-transform: uppercase;
   font-weight: bold;
-  background: #808080;
+  background-color: #808080;
   border-right: 1px solid #ffffff;
   color: #000000; }
 
@@ -110,10 +109,7 @@ th:last-child {
   border: NONE; }
 
 caption {
-  text-align: right;
-  color: #000000;
-  font-weight: normal;
-  font-size: 14px; }
+  text-align: right; }
 
 th, td {
   padding: 5px 10px;

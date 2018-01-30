@@ -1,26 +1,27 @@
 $colorBodyBg: null !default;
 $colorContentBg: null !default;
 $colorH1: null !default;
+$tblBg: null !default;
 
 *{margin: 0; padding: 0;}
 
 body {
 	
 	background-color: $colorBodyBg;
-	text-align: center;
+	
 }
 	#content {
-    	margin: 8px auto;
+		width: 960px;
+        margin: 0 auto;
+        background: #ffffff;
+        padding: 25px 25px;
 		background-color: $colorContentBg;
-		width: 800px;
-		height: 100%;
-		padding: 20px 20px;
-		font-size: 13px;
+		
 }
 	h1, h2{
 color: $colorH1;
 padding-bottom: 15px;
-padding-top: 10px;
+padding-top: 15px;
 }
 	
    p {
@@ -40,22 +41,22 @@ padding-top: 10px;
      	padding: 2px;
      }
      
-     @mixin briefMixin($briefBackground, $width, $pad1, $mar1, $mart1, $fl1, $mr1, $textA)
+     @mixin briefMixin($briefBackground, $width, $fl1, $mr1, $textA)
  {
      background-color: $briefBackground;
+     padding: 20px;
+     margin-right: auto;
+     margin-left: auto;
      width: $width;
-     padding: $pad1;
-     margin-right: $mar1;
-     margin-top: $mart1;
      float: $fl1;
      margin: $mr1;
      text-align: $textA;
-     height: 30px;
+     vertical-align: middle;
 
 }
 
 .brief {
-  @include briefMixin($briefBackground, $width, $pad1, $mar1, $mart1, $fl1, $mr1, $textA);
+  @include briefMixin($briefBackground, $width, $fl1, $mr1, $textA);
 }
 
 
@@ -97,8 +98,8 @@ input[type=submit] {
 
 .two-column{
  display: inline-block;
- margin-right: 1px;
- width: 397px;
+ margin-right: 2px;
+ width: 476px;
  
 }
 
@@ -113,11 +114,11 @@ text-transform: $trans;
 
 }
 
-table {width: 750px; border-collapse: collapse; background-color: $tblBg;}
+table {width: 900px; border-collapse: collapse; background-color: $tblBg; margin-bottom: 50px;}
 th {
    text-transform: uppercase;
    font-weight: bold;
-   background: $thBgColor;
+   background-color: $thBgColor;
    border-right: 1px solid $thBorderColor;
    color: $thTxtColor;
 
@@ -127,9 +128,7 @@ th {
 
    caption {
 text-align: right; 
-color: $captionTxtColor;
-font-weight: normal;
-font-size: 14px;
+
 }
 
 th, td {padding: 5px 10px; text-align:left; }

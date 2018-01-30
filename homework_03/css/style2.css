@@ -3,21 +3,19 @@
   padding: 0; }
 
 body {
-  background-color: rgba(198, 238, 252, 0.53);
-  text-align: center; }
+  background-color: rgba(198, 238, 252, 0.53); }
 
 #content {
-  margin: 8px auto;
-  background-color: #3b3b3b;
-  width: 800px;
-  height: 100%;
-  padding: 20px 20px;
-  font-size: 13px; }
+  width: 960px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 25px 25px;
+  background-color: #3b3b3b; }
 
 h1, h2 {
   color: #fccd10;
   padding-bottom: 15px;
-  padding-top: 10px; }
+  padding-top: 15px; }
 
 p {
   color: #ffffff;
@@ -38,14 +36,14 @@ img {
 
 .brief {
   background-color: #fff178;
-  width: 780px;
-  padding: 10px;
-  margin-right: 10px;
-  margin-top: 5px;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 920px;
   float: none;
   margin: 0px 0px 30px 0px;
   text-align: left;
-  height: 30px; }
+  vertical-align: middle; }
 
 input[type=text], input[type=email], textarea {
   width: 100%;
@@ -83,8 +81,8 @@ input[type=submit] {
 
 .two-column {
   display: inline-block;
-  margin-right: 1px;
-  width: 397px; }
+  margin-right: 2px;
+  width: 476px; }
 
 label {
   color: #f5c70f;
@@ -95,14 +93,15 @@ h1 {
   text-transform: uppercase; }
 
 table {
-  width: 750px;
+  width: 900px;
   border-collapse: collapse;
-  background-color: #677d01; }
+  background-color: #677d01;
+  margin-bottom: 50px; }
 
 th {
   text-transform: uppercase;
   font-weight: bold;
-  background: #94a34e;
+  background-color: #94a34e;
   border-right: 1px solid #ffffff;
   color: #000000; }
 
@@ -110,10 +109,7 @@ th:last-child {
   border: NONE; }
 
 caption {
-  text-align: right;
-  color: #000000;
-  font-weight: normal;
-  font-size: 14px; }
+  text-align: right; }
 
 th, td {
   padding: 5px 10px;
