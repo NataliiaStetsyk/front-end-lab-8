@@ -26,6 +26,36 @@ em {
   letter-spacing: .02em;
 }
 
+.content {
+  grid-area: content;
+  position: relative;
+  
+}
+
+.header {
+  grid-area: header;
+  
+}
+
+.footer {
+  grid-area: footer;
+  
+}
+
+.grid {
+        display: grid;
+        grid-gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+     
+        grid-template-areas:
+        "header  header  header"
+        "content content content"
+        "footer  footer  footer";
+    
+    }
+
+
 /* Header */
 
 header {
@@ -37,21 +67,18 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
-  height: 800px;
+  height: 760px;
   text-align:center;
   min-height: 400px;
 }
 
  header .logo {
   letter-spacing: .1em;
-  font-size: 1.75em;
   text-align: center;
-  font-weight: normal;
   text-transform: uppercase;
-  font-size: 32px;
+  font-size: 5em;
   word-spacing: 5px;
-  margin-top: 270px;
-  font-size: 70px;
+  margin-top: 23%;
   font-weight: 100;
   margin-left: 5%;
 }
@@ -69,14 +96,14 @@ header {
   border-radius: 0;
   float: none;
   font-weight: 300;
-  margin-top: 5%;
+  margin-top: 17%;
   padding: 1em 4em;
   color: #fff;
 }
 
    header sup{
 	 position: absolute;
-	 bottom: 52.5%;
+	 bottom: 47%;
     }
  
  header a{
@@ -120,28 +147,25 @@ a:hover {
 
 /* Intro */	
 
-#intro {
-	margin: 5% 10%;
-}
-
 .wrapper { 
+  padding: 5% 10%;
   display: grid;
   background-color: #fff;
   grid-template-columns: 45% 55%; /*to create 2 columns - one 45 % and second 55 % of width */
 }
 
 .row p {
-	margin: 5% 0 15% 0;
+	margin: 5% 0 5% 0;
 }
 
 .col1 {
-	font-size: 22px;
-   padding-right:10%;	/*to make a bigger font size for the first column text*/
+	font-size: 25px;
+   padding-right: 5%;	/*to make a bigger font size for the first column text*/
 }
 
 .col2 {
   text-align: justify;
-padding-left:20%;	/*to make a bigger font size for the first column text*/
+padding-left:15%;	/*to make a bigger font size for the first column text*/
 }
 
 /*Articles*/
@@ -195,7 +219,8 @@ margin: 5% 10%;
   
   #newsletter {
     background: #ffffff;
-	margin: 2% 10% 15% 10%;
+	margin: 5% 10% 10% 10%;
+  padding: 3% ;
 
   }
 
@@ -219,7 +244,7 @@ margin: 5% 10%;
 }
 
 #newsletter button[type=submit]{
-    width: 10%;
+    width: 20%;
     padding: 15px;
     margin: 15px 0;
     display: inline;
@@ -241,16 +266,18 @@ margin: 5% 10%;
  .wrapper2 { 
   display: grid;
   background-color: #fff;
-  grid-template-columns: 40% 90%; /*to create 2 columns - one 45 % and second 55 % of width */
+  grid-template-columns: 40% 90%; /*to create 2 columns - one 40 % and second 90 % of width */
 }
+
+/*Info*/
 
 .wrapper3 { 
   display: grid;
-  grid-column-gap: 10%;
+  grid-column-gap: 5%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;  
-  background-color: #fff; 
-  height: 5%;
+  padding: 5% 12%;
+
 }
 
   .wrapper3 div:nth-child(1) {
@@ -275,16 +302,19 @@ margin: 5% 10%;
 
 
  .three {
-color: #F0F0F0;
+color: #cccccc;
 }
 
 #info {
-	margin: 5% 10%;
-}
+
+  background-color: #fff; 
+  
+  }
+
 #info h3{
 	
 	font-weight: 600;
-	margin-bottom: 2%;
+	margin-bottom: 5%;
 	
   }
   
@@ -304,12 +334,20 @@ color: #F0F0F0;
 #info input[type=email]{
     width: 55%;
 }
+
+#info p {
+  color: #7f7f7f;
+}
+
+/*Footer*/
+
  .menu  {
   float: right;
 }
 
 footer {
-	margin: 2% 10%;
+	background-color:#fff;
+  padding: 2% 12%;
 		
 }
 
@@ -320,34 +358,4 @@ padding-bottom: 8px;
  }
  
  
- .content {
-  grid-area: content;
-  position: relative;
-  
-}
-
-.header {
-  grid-area: header;
-  
-}
-
-.footer {
-  grid-area: footer;
-  
-}
-
-.grid {
-        display: grid;
-        grid-gap: 10px;
-        grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: auto;
-		 
-        grid-template-areas:
-        "header  header  header"
-        "content content content"
-        "footer  footer  footer";
-		
-    }
-	
-	
   
