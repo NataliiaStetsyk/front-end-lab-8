@@ -107,9 +107,6 @@ background-color: #39c2d7;
   margin-right:auto !important;
 }
 
-.news div {
- 
-}
 
 
 h3, p {
@@ -149,7 +146,7 @@ footer li:hover {
 
    h1{
     font-size: 20px;
-    width: 92%;
+    width: 90%;
     background-color: #39c2d7;
     padding:10px 0 10px 10px;
     position:absolute;
@@ -160,7 +157,7 @@ footer li:hover {
   .banner-inner{ 
    display: block;
    padding:0;
-   margin:0 0 10px 10px;
+   margin:0 10px 0 10px;
 }
 
 .banner {
@@ -178,10 +175,10 @@ header nav{
 header li  {  
   display: block;
   border-bottom: 1px solid silver;
-  padding: 2%; 
-  font-size: 150%;
-  font-weight: 300;
-  color: #333; 
+  padding: 3%; 
+  font-size: 120%;
+  font-weight: 100;
+  color: #464547; 
   background-color: #eaeaea;
 }
 
@@ -196,8 +193,9 @@ header li:last-child{
 }
 
 #logo img {
-  margin-left: 70px;
-  margin-top: 30px; 
+  margin-left: 15%;
+  margin-top: 30px;
+  margin-bottom: 15px; 
   position: relative;
 }
 
