@@ -223,7 +223,6 @@ header li:last-child{
   float: none; 
   width:100%;
   grid-column-gap: 10px;
-  grid-row-gap: auto;
   justify-content: center;
   margin: 0 !important;
 
@@ -326,7 +325,6 @@ body
 }
 #header-inner {
   margin: 0 auto;
-  padding: 0 auto;
 }
 
 #logo img {
