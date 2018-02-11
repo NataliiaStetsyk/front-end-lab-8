@@ -22,7 +22,7 @@ if ((side1 <= 0) || (side2 <= 0) || (side3 <= 0) || isNaN(side1) || isNaN(side2)
         var B2C2 = sideBsqrd + sideCsqrd;
         var perimeter = (side1 + side2 + side3) / 2;
         var area = Math.sqrt(perimeter * ((perimeter - side1) * (perimeter - side2) * (perimeter - side3)));
-        var area = Math.round(area * 100) / 100;
+        var area = parseFloat(area.toFixed(2));
 
         if ((sideAsqrd == B2C2) || (sideBsqrd == A2C2) || (sideCsqrd == A2B2)) {
             console.log("Type of a triangle is right" + " " + "and the square is" + " " + area + "    ");
