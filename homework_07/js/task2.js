@@ -10,20 +10,22 @@ var prize1 = 10;
 var prize2 = 5;
 var prize3 = 3;
 var prize4 = 0;
-
+var prize = 0;
 while (message) {
     var attempts = 3;
+    
     //prompt the user for a guess
-    var guess = prompt('Enter a whole number between 1 and ' + max + "\n" + 'Attempts left ' + attempts + "\n" + "Possible prize on current attempt: " + prize1 + "$");
+    var guess = prompt('Enter a whole number between 1 and ' + max + "\n" + 'Attempts left ' + attempts + "\n"  +"Total prize: "  + "$" + prize + "\n" + "Possible prize on current attempt: " + prize1 + "$");
     //ensure user entered something
     if ((guess < 0) || (guess > max) || (!guess) || (isNaN(guess))) {
         console.log('Incorrect data!');
     }
     if ((guess == random) && (attempts == 3)) {
-        var prize = prize1;
+     prize = prize1;
     } else {
         attempts = 2;
-         guess = prompt('Enter a whole number between 1 and ' + max + "\n" + 'Attempts left: ' + attempts + "\n" + "Possible prize on current attempt: " + prize2 + "$");
+        
+         guess = prompt('Enter a whole number between 1 and ' + max + "\n" + 'Attempts left: ' + attempts + "\n"  +"Total prize: "  + "$" + prize + "\n" + "Possible prize on current attempt: " + prize2 + "$");
         if ((guess < 0) || (guess > max) || (!guess) || (isNaN(guess))) {
             console.log('Incorrect data!');
         }
@@ -31,7 +33,8 @@ while (message) {
              prize = prize2;
         } else {
             attempts = 1;
-             guess = prompt('Enter a whole number between 1 and ' + max + "\n" + 'Attempts left: ' + attempts + "\n" + "Possible prize on current attempt: " + prize3 + "$");
+            
+             guess = prompt('Enter a whole number between 1 and ' + max + "\n" + 'Attempts left: ' + attempts + "\n" +"Total prize: "  + "$" + prize + "\n" + "Possible prize on current attempt: " + prize3 + "$");
             if ((guess < 0) || (guess > max) || (!guess) || (isNaN(guess))) {
                 console.log('Incorrect data!');
             }
