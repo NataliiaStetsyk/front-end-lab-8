@@ -1,5 +1,5 @@
 var isSmaller = function (a, b) {
-return !isBigger(a, b);
+return !isBigger(a, b) && (a!=b);
 }
 
 var isBigger = function (a, b) {
