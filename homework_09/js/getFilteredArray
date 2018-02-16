@@ -1,0 +1,11 @@
+function predicateFunction (num) {
+        return num > 3;
+    }
+
+    function getFilteredArray (array, predicateFunction) {
+        var filteredArray = array.filter(predicateFunction);
+        return filteredArray;
+
+    }
+	
+	getFilteredArray([1, 7, 20], predicateFunction);
