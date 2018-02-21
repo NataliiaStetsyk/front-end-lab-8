@@ -6,7 +6,7 @@ function debounce (cb, wait) {
   }
 }
 
-let iterator = 0;
+var iterator = 0;
 
 function callback() {
   iterator++;
