@@ -6,12 +6,19 @@ function debounce (cb, wait) {
   }
 }
 
-function callback(e) {
-  console.log('height', window.innerHeight);
-  console.log('width', window.innerWidth);
+let iterator = 1;
+
+function callback() {
+  iterator++;
+
+  printIteratorValue();
 }
 
-let debouncedCallback = debounce(callback, 1000);
+function printIteratorValue() {
+  console.log('Iterator value ', iterator);
+}
+
+var debouncedCallback = debounce(callback, 1000);
 
 debouncedCallback();
 debouncedCallback();
