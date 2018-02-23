@@ -78,6 +78,7 @@ function fighter (options){
 			}
 			return true;
 			}
+		}	
 	};
 	
   };
