@@ -64,20 +64,20 @@ function fighter (options){
 		},
 		
 		fight: function(enemy) {
-            if (enemy.block()) 
+            if (enemy.block()) {
                 return false;
             } else {
-                var diff = enemy.getStats().hp - stats.attack;
-                if (diff > 0) {
-                    enemy.getStats().hp = diff;
-                } else {
-                    combatHistory.wins++;
-                    enemy.getCombatHistory().loses += 1;
-                    enemy.getStats().hp = 0;
-                }
-                return true;
-            }
-		}
+			var diff = enemy.getStats().hp - stats.attack;
+			var isEnemyKilled = function () {
+		         combatHistory.wins++;
+	             enemy.getCombatHistory().loses += 1;
+		         enemy.getStats().hp = 0;
+	        };
+			if (!isEnemyKilled(diff)) {
+				enemy.getStats().hp = diff;
+			}
+			return true;
+			}
 	};
 	
   };
