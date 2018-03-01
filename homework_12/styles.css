@@ -1,1 +1,52 @@
-/* Your styles goes here */
+
+h1 {
+	
+	padding: 15px;
+}
+.page{
+    margin: 0, auto;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 20px;
+	height: 960px;
+}
+ #box{
+    display: inline-table;
+	padding: 5px;
+	
+}
+
+.preview_class {
+	width: 300px;
+	
+}
+
+.page div .level, .model_class {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.country_class {
+	display:none !important;
+	
+}
+
+.model_class {
+	white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis ;
+}
+
+caption {
+	width: 200px;
+	caption-side: bottom;
+}
+
+.country_image_class, .level {
+	display: inline;
+	padding-right: 5px;
+}
+
+div #box:hover{
+	background-color: #333333;
+}
