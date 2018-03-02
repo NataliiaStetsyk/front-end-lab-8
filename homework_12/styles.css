@@ -6,9 +6,9 @@ h1 {
 .page{
     margin: 0, auto;
 	background-color: #000000;
-	color: #ffffff;
+	color: #A19E86;
 	font-size: 20px;
-	height: 960px;
+	height: 1200px;
 }
  #box{
     display: inline-table;
@@ -49,4 +49,18 @@ caption {
 
 div #box:hover{
 	background-color: #333333;
+}
+
+table {
+    width: 100%;
+	border-collapse: collapse;
+}
+
+tr, td {
+   padding: 10px;
+   color: #d1ceb5;
+}
+
+td {
+	border: 1px solid #A19E86;
 }
