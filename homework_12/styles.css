@@ -1,21 +1,22 @@
 
+
 h1 {
 	
 	padding: 15px;
 }
 .page{
     margin: 0, auto;
-	background-color: #000000;
+	background-color: #272727;
 	color: #A19E86;
 	font-size: 20px;
 	height: 1200px;
 }
- #box{
+ #box0,#box1,#box2,#box3,#box4,#box5,#box6,#box7 {
     display: inline-table;
 	padding: 5px;
 	
 }
-
+#root{height: 1200px;}
 .preview_class {
 	width: 300px;
 	
@@ -35,6 +36,7 @@ h1 {
 	white-space: nowrap;
 overflow: hidden;
 text-overflow: ellipsis ;
+color: #A19E86;
 }
 
 caption {
@@ -45,6 +47,7 @@ caption {
 .country_image_class, .level {
 	display: inline;
 	padding-right: 5px;
+	color: #A19E86;
 }
 
 div #box:hover{
@@ -52,8 +55,12 @@ div #box:hover{
 }
 
 table {
-    width: 100%;
+    width: 60%;
 	border-collapse: collapse;
+	float:right;
+	color: #A19E86;
+	margin:30px;
+	font-size: 180%;
 }
 
 tr, td {
@@ -64,3 +71,27 @@ tr, td {
 td {
 	border: 1px solid #A19E86;
 }
+
+#root{
+	background-color: #272727;
+}
+
+.model_classD, .levelD{
+	font-size: 200%;
+	color: #A19E86;
+	text-align:center;
+	
+}
+.model_classD{
+	text-transform: uppercase;
+}
+.levelD{
+font-size: 150%;}
+
+.country_image_classD, .model_classD, .levelD{
+	display: inline-table;
+	padding: 5px;
+	}
+.country_image_classD{	margin-left: 10px;}
+
+.backT, .previewT {color: #d1ceb5; font-size: 150%; margin: 50px; }
